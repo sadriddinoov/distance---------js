@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Distance-js</title>
+</head>
+<body class="bg-success">
+    
+    <div class="container-fluid pt-2 mt-2 d-flex flex-column align-items-center" >
+
+        <h1 class="h2 mb-3 text-white text-center">Who is the first?</h1>
+
+        <form class="w-50 mb-5" id="formDistance" action="https://echo.htmlacademy.ru/">
+
+          
+            <label class="d-flex">
+                <h2 class="h3 text-white me-2">Distance</h2>
+
+                <input class="me-3 form-control text-danger" type="number" name="user_Distance" id="userDistance" placeholder="Please enter in kilometers!" required>
+
+                <button id="distanceBtn" class="btn btn-primary" type="submit">Convert</button>
+            </label>
+
+           
+
+        </form>
+
+    </div>
+
+    <div class="d-flex container text-center justify-content-between" >
+        <div>
+            <img src="./images/walk.png" alt="walk" width="150" height="150">
+
+            <h4 class="h1 mb-3 mt-3 text-white">Walk</h4>
+
+
+            <p id="time1" class="h2 text-white-50">0</p>
+        </div>
+
+        <div>
+            <img class="rounded-circle" src="./images/bike.png" alt="bike" width="150" height="150">
+
+            <h4 class="h1 mb-3 mt-3 text-white">Bike</h4>
+
+
+            <p id="time2" class="h2 text-white-50">0</p>
+        </div>
+
+        <div>
+            <img class="rounded-circle" src="./images/car.png" alt="car" width="150" height="150">
+
+            <h4 class="h1 mb-3 mt-3 text-white">Car</h4>
+
+
+            <p id="time3" class="h2 text-white-50">0</p>
+        </div>
+
+        <div>
+            <img class="rounded-circle" src="./images/plane.webp" alt="plane" width="150" height="150">
+
+            <h4 class="h1 mb-3 mt-3 text-white">Plane</h4>
+
+
+            <p id="time4" class="h2 text-white-50">0</p>
+        </div>
+        
+    
+    </div>
+    
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
+
